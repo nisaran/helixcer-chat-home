@@ -3,15 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Helixcer Chat — Omnichannel inbox for customer conversations</title>
-  <meta name="description" content="Helixcer Chat unifies WhatsApp, Instagram, Messenger, Telegram, and Google Reviews in one shared inbox for your team.">
-  <meta name="theme-color" content="#C24525">
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="/assets/helixcer-chat-32.png" sizes="32x32" type="image/png">
-  <link rel="apple-touch-icon" href="/assets/helixcer-chat-192.png">
+  <meta name="theme-color" content="#090b18">
+  <meta name="description" content="Helixcer Chat brings WhatsApp, Instagram, Facebook Messenger and Telegram conversations into one organised team inbox.">
+  <title>Helixcer Chat — Every conversation, one workspace</title>
+  <link rel="icon" href="/assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@450;550;650;750&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <script>
     (function () {
@@ -23,201 +24,187 @@
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#features">Skip to content</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <a class="brand-lockup" href="/" aria-label="Helixcer Chat home">
-      <img src="/assets/helixcer-mark.jpg" width="40" height="40" alt="" class="brand-mark">
-      <span class="brand-word">Helixcer <em>Chat</em></span>
+  <header class="header">
+    <a class="brand" href="/" aria-label="Helixcer Chat home">
+      <img src="/assets/helixcer-chat-logo.png" width="46" height="46" alt="Helixcer Chat logo">
+      <span>helixcer<span class="brand-light">chat</span></span>
     </a>
-    <nav class="site-nav" aria-label="Primary">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#platform">Platform</a>
       <a href="#features">Features</a>
-      <a href="#plans">Plans</a>
-      <a class="nav-cta" href="https://app.chat.helixcer.com/" target="_blank" rel="noopener noreferrer">Open app <span aria-hidden="true">↗</span></a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
     </nav>
+    <a class="header-cta" href="https://app.chat.helixcer.com/" target="_blank" rel="noopener noreferrer">Open app <span>↗</span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
   </header>
 
-  <main>
-    <section class="hero" aria-labelledby="hero-brand">
-      <div class="hero-copy">
-        <p class="eyebrow" id="hero-brand"><span class="eyebrow-dot"></span> Customer conversations, simplified</p>
-        <h1>Every conversation.<br><span>One powerful inbox.</span></h1>
-        <p class="hero-lead">Bring WhatsApp, Instagram, Facebook Messenger, Telegram and customer conversations together. Give your team one clear place to respond, collaborate and keep customers moving.</p>
+  <main id="main">
+    <section class="hero" id="platform">
+      <div class="hero-content">
+        <div class="overline"><span class="live-dot"></span> THE CONVERSATION WORKSPACE</div>
+        <h1>Good conversations.<br><span>Better connections.</span></h1>
+        <p class="hero-description">All your customer conversations, together at last. Bring your channels into one calm, organised workspace — and give every customer a better experience.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="https://app.chat.helixcer.com/" target="_blank" rel="noopener noreferrer">Open Helixcer Chat <span aria-hidden="true">↗</span></a>
-          <a class="button button-ghost" href="#plans">View plan</a>
+          <a class="button button-primary" href="https://app.chat.helixcer.com/" target="_blank" rel="noopener noreferrer">Launch Helixcer Chat <span>↗</span></a>
+          <a class="button button-secondary" href="#pricing">Explore the plan <span>↓</span></a>
+        </div>
+        <div class="hero-proof">
+          <div class="channel-stack" aria-label="Supported channels">
+            <img src="/assets/provider-whatsapp.svg" alt="WhatsApp">
+            <img src="/assets/provider-instagram.svg" alt="Instagram">
+            <img src="/assets/provider-facebook.svg" alt="Facebook">
+            <img src="/assets/provider-telegram.svg" alt="Telegram">
+          </div>
+          <span>Multiple channels. One shared inbox.</span>
         </div>
       </div>
 
-      <div class="hero-stage" aria-hidden="true">
-        <div class="inbox-shell">
-          <aside class="inbox-rail">
-            <div class="rail-brand">
-              <img src="/assets/helixcer-mark.jpg" alt="">
-              <span>Inbox</span>
-            </div>
-            <div class="rail-item is-active"></div>
-            <div class="rail-item"></div>
-            <div class="rail-item"></div>
-            <div class="rail-item"></div>
-          </aside>
-          <div class="inbox-list">
-            <div class="list-head"></div>
-            <article class="thread is-hot">
-              <img class="provider" src="/assets/provider-whatsapp.svg" alt="">
-              <div>
-                <strong>Maya Fernandes</strong>
-                <span>Can you share the delivery window for order #4821?</span>
-              </div>
-            </article>
-            <article class="thread">
-              <img class="provider" src="/assets/provider-instagram.svg" alt="">
-              <div>
-                <strong>atelier.north</strong>
-                <span>Loved the new drop — is size M still available?</span>
-              </div>
-            </article>
-            <article class="thread">
-              <img class="provider" src="/assets/provider-telegram.svg" alt="">
-              <div>
-                <strong>Ops Desk</strong>
-                <span>Customer confirmed pickup for tomorrow 11am.</span>
-              </div>
-            </article>
-            <article class="thread">
-              <img class="provider" src="/assets/provider-facebook.svg" alt="">
-              <div>
-                <strong>Jordan Lee</strong>
-                <span>Thanks — the agent resolved it in minutes.</span>
-              </div>
-            </article>
+      <div class="visual-wrap" aria-label="Illustration of a unified customer messaging inbox">
+        <div class="visual-glow"></div>
+        <div class="app-window">
+          <div class="window-top">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span>HELIXCER CHAT <b>WORKSPACE</b></span>
+            <div class="online-pill"><i></i> Live inbox</div>
           </div>
-          <div class="inbox-chat">
-            <div class="chat-head">
-              <span>Maya Fernandes</span>
-              <img src="/assets/provider-whatsapp.svg" alt="">
-            </div>
-            <div class="chat-stream">
-              <div class="bubble in">Hi, I placed order #4821 yesterday.</div>
-              <div class="bubble in">Can you share the delivery window?</div>
-              <div class="bubble out">Hi Maya — it’s scheduled for 2–5pm today. I’ll send the tracking link next.</div>
-            </div>
-            <div class="chat-compose"></div>
+          <div class="window-body">
+            <aside class="sidebar">
+              <div class="sidebar-logo"><img src="/assets/helixcer-chat-logo.png" alt=""></div>
+              <div class="side-icon selected">▤</div><div class="side-icon">♙</div><div class="side-icon">◈</div><div class="side-icon">⚙</div>
+              <div class="side-avatar">N</div>
+            </aside>
+            <section class="conversation-list">
+              <div class="list-title"><div><small>YOUR WORKSPACE</small><strong>Inbox <span class="count">8</span></strong></div><span class="compose">＋</span></div>
+              <div class="search-box">⌕ &nbsp; Search conversations</div>
+              <div class="filter-row"><span class="filter-active">All <b>8</b></span><span>Unread</span><span>Assigned</span></div>
+              <article class="conversation active">
+                <div class="person-avatar avatar-a">M</div><div class="conversation-info"><strong>Maya Fernandes <img src="/assets/provider-whatsapp.svg" alt=""></strong><p>Could you help me with my order?</p></div><time>Now</time>
+              </article>
+              <article class="conversation">
+                <div class="person-avatar avatar-b">A</div><div class="conversation-info"><strong>Aria Studio <img src="/assets/provider-instagram.svg" alt=""></strong><p>Thank you! This is perfect.</p></div><time>2m</time>
+              </article>
+              <article class="conversation">
+                <div class="person-avatar avatar-c">J</div><div class="conversation-info"><strong>James Wilson <img src="/assets/provider-facebook.svg" alt=""></strong><p>When will my delivery arrive?</p></div><time>18m</time>
+              </article>
+              <article class="conversation">
+                <div class="person-avatar avatar-d">O</div><div class="conversation-info"><strong>Operations Team <img src="/assets/provider-telegram.svg" alt=""></strong><p>Pickup confirmed for tomorrow.</p></div><time>1h</time>
+              </article>
+            </section>
+            <section class="chat-panel">
+              <div class="chat-person"><div class="person-avatar avatar-a">M</div><div><strong>Maya Fernandes</strong><small><i></i> WhatsApp conversation</small></div><span class="more">•••</span></div>
+              <div class="chat-date">TODAY, 10:42 AM</div>
+              <div class="message incoming">Hi! I wanted to check the status of my order.</div>
+              <div class="message outgoing">Of course, Maya! I’d be happy to help. Let me check that for you.</div>
+              <div class="message incoming">Thank you so much 😊</div>
+              <div class="reply-box"><span>Write a reply...</span><b>＋</b><b>↗</b></div>
+            </section>
           </div>
         </div>
+        <div class="float-card float-channel"><span class="float-icon">✳</span><div><strong>All channels, connected</strong><small>Your conversations in sync</small></div><span class="check">✓</span></div>
+        <div class="float-card float-reply"><span class="reply-spark">✦</span><div><strong>Stay on top of every reply</strong><small>One team. One shared inbox.</small></div></div>
+      </div>
+      <div class="hero-bottom-note"><span>01 /</span> ONE PLACE FOR EVERY CUSTOMER</div>
+    </section>
+
+    <section class="channels-section">
+      <p>CONNECT THE CHANNELS YOUR CUSTOMERS ALREADY USE</p>
+      <div class="channel-logos">
+        <div><img src="/assets/provider-whatsapp.svg" alt="">WhatsApp</div>
+        <div><img src="/assets/provider-instagram.svg" alt="">Instagram</div>
+        <div><img src="/assets/provider-facebook.svg" alt="">Messenger</div>
+        <div><img src="/assets/provider-telegram.svg" alt="">Telegram</div>
+        <div class="google-channel"><span>G</span>Google Reviews</div>
       </div>
     </section>
 
-    <section class="section features" id="features" aria-labelledby="features-title">
-      <div class="section-intro">
-        <h2 id="features-title">A better way to manage every customer conversation.</h2>
-        <p>Less switching between apps. More meaningful conversations, faster replies and a team that stays in sync.</p>
+    <section class="features-section section-pad" id="features">
+      <div class="section-heading">
+        <div><span class="eyebrow">MADE FOR BETTER SERVICE</span><h2>Less app-hopping.<br><span>More getting things done.</span></h2></div>
+        <p>Everything your team needs to stay organised, respond faster and build stronger customer relationships.</p>
       </div>
-      <ul class="feature-list">
-        <li>
-          <h3>Shared omnichannel inbox</h3>
-          <p>WhatsApp Cloud, Instagram Messaging, Facebook Messenger, Telegram, and Google Reviews in a single queue.</p>
-        </li>
-        <li>
-          <h3>Person-first contacts</h3>
-          <p>One contact across messaging IDs — so your team replies on the right connected account every time.</p>
-        </li>
-        <li>
-          <h3>Realtime collaboration</h3>
-          <p>Assignments, statuses, search, and live updates so agents never fight over the same thread.</p>
-        </li>
-        <li>
-          <h3>Campaigns &amp; templates</h3>
-          <p>Send approved WhatsApp templates when the customer-service window closes, with draft-safe confirmation.</p>
-        </li>
-        <li>
-          <h3>Workspace roles</h3>
-          <p>Owners, admins, and agents with invite flows, Google sign-in, and password recovery.</p>
-        </li>
-        <li>
-          <h3>Developer API</h3>
-          <p>Server-to-server template sends land in the same inbox your agents already use.</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="section plans" id="plans" aria-labelledby="plans-title">
-      <div class="section-intro">
-        <p class="section-kicker">Simple, transparent pricing</p>
-        <h2 id="plans-title">One plan. Everything you need to get started.</h2>
-        <p>No confusing tiers. Start with the Basic plan and bring your customer conversations into one workspace.</p>
-      </div>
-      <div class="plan-wrap">
-        <article class="plan plan-featured" aria-label="Basic plan" tabindex="0" onclick="if (!event.target.closest('a')) location.hash = 'contact';" onkeydown="if (event.key === 'Enter' && !event.target.closest('a')) location.hash = 'contact';">
-          <div class="plan-topline">
-            <span class="plan-name">Basic</span>
-            <span class="plan-status">Available now</span>
-          </div>
-          <p class="plan-price"><span>₹199</span> <small>+ applicable taxes</small></p>
-          <p class="plan-blurb">A straightforward starting point for managing customer conversations in one place.</p>
-          <ul>
-            <li>Unified omnichannel inbox</li>
-            <li>WhatsApp, Instagram, Facebook Messenger and Telegram</li>
-            <li>Centralised customer contacts</li>
-            <li>Team collaboration and conversation assignment</li>
-            <li>One organised workspace</li>
-          </ul>
-          <a class="button button-primary plan-contact-link" href="#contact">Get started <span aria-hidden="true">→</span></a>
-          <p class="plan-note">Have a question before getting started? Talk to our team.</p>
+      <div class="feature-grid">
+        <article class="feature-card feature-large">
+          <div class="feature-art inbox-art"><div class="art-line"></div><div class="art-bubble">Hey! How can we help? <span>✓✓</span></div><div class="art-bubble light">I have a quick question about my order.</div><div class="art-channels"><img src="/assets/provider-whatsapp.svg" alt=""><img src="/assets/provider-instagram.svg" alt=""><img src="/assets/provider-facebook.svg" alt=""><img src="/assets/provider-telegram.svg" alt=""></div></div>
+          <div class="feature-copy"><span class="feature-number">01</span><h3>One inbox for every channel</h3><p>Manage customer messages from your connected channels in one shared, easy-to-follow inbox.</p></div>
         </article>
-        <div class="plan-aside">
-          <span class="aside-mark" aria-hidden="true">✳</span>
-          <h3>Clear conversations lead to better customer experiences.</h3>
-          <p>Connect your channels, bring your team together and respond with confidence — all from Helixcer Chat.</p>
-          <a href="#contact" class="text-link">Talk to our team <span aria-hidden="true">→</span></a>
+        <article class="feature-card">
+          <div class="feature-art contacts-art"><div class="contact-chip"><span class="mini-avatar">M</span><span><b>Maya Fernandes</b><small>WhatsApp · Instagram</small></span><i>✓</i></div><div class="contact-chip"><span class="mini-avatar purple">A</span><span><b>Aria Studio</b><small>Instagram</small></span><i>✓</i></div><div class="contact-chip"><span class="mini-avatar blue">J</span><span><b>James Wilson</b><small>Messenger</small></span><i>✓</i></div></div>
+          <div class="feature-copy"><span class="feature-number">02</span><h3>Customer context, together</h3><p>Keep customer details and channel identities organised in one place.</p></div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-art team-art"><div class="team-orbit orbit-one"></div><div class="team-orbit orbit-two"></div><span class="team-center">H</span><span class="team-person p-one">N</span><span class="team-person p-two">A</span><span class="team-person p-three">S</span><span class="team-person p-four">R</span><div class="team-caption">Your team, in sync</div></div>
+          <div class="feature-copy"><span class="feature-number">03</span><h3>Teamwork without the noise</h3><p>Assign conversations, track status and help your team stay aligned.</p></div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-art campaign-art"><div class="campaign-window"><span class="campaign-label">MESSAGE TEMPLATE</span><b>Stay connected.</b><div class="campaign-lines"></div><div class="campaign-send">Send message <span>↗</span></div></div></div>
+          <div class="feature-copy"><span class="feature-number">04</span><h3>Campaigns &amp; templates</h3><p>Work with approved WhatsApp templates and keep outreach organised.</p></div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-art api-art"><span class="api-bracket">{ }</span><span class="api-node node-a"></span><span class="api-node node-b"></span><span class="api-node node-c"></span><div class="api-label">Connected workflows</div></div>
+          <div class="feature-copy"><span class="feature-number">05</span><h3>Built to work with you</h3><p>Bring connected workflows and server-side messaging into the same workspace.</p></div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-art secure-art"><div class="secure-shield">✓</div><div class="secure-ring"></div><span class="secure-tag">TEAM ACCESS</span></div>
+          <div class="feature-copy"><span class="feature-number">06</span><h3>A workspace for your team</h3><p>Keep work structured with team access, roles and a shared operating space.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="pricing-section section-pad" id="pricing">
+      <div class="pricing-orb"></div>
+      <div class="pricing-heading"><span class="eyebrow">STRAIGHTFORWARD PRICING</span><h2>Everything starts<br>with <span>one simple plan.</span></h2><p>No tier maze. No guesswork. A clear starting point for your team.</p></div>
+      <a class="price-card" href="#contact" aria-label="Basic plan, 199 rupees plus applicable taxes. Contact us to get started.">
+        <div class="price-top"><span class="price-plan">BASIC PLAN</span><span class="price-pill"><i></i> Available now</span></div>
+        <div class="price-amount"><span class="currency">₹</span><strong>199</strong><small>+ applicable taxes</small></div>
+        <p class="price-summary">A simpler way to manage all your customer conversations.</p>
+        <div class="price-divider"></div>
+        <ul class="price-features"><li>Unified omnichannel inbox</li><li>Connected messaging channels</li><li>Centralised customer contacts</li><li>Team collaboration &amp; assignments</li><li>One organised workspace</li></ul>
+        <span class="price-action">Get started <b>↗</b></span>
+        <small class="price-footnote">Click to contact our team and get started.</small>
+      </a>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <div class="contact-backdrop"></div>
+      <div class="contact-inner">
+        <div class="contact-copy"><span class="eyebrow">LET'S TALK</span><h2>Ready to bring your conversations <span>together?</span></h2><p>Tell us what your team needs. We’ll help you take the next step with Helixcer Chat.</p></div>
+        <div class="contact-options">
+          <a class="contact-option" href="https://wa.me/916282010794" target="_blank" rel="noopener noreferrer"><span class="contact-symbol whatsapp-symbol">◉</span><span><small>CHAT WITH US</small><strong>+91 62820 10794</strong></span><b>↗</b></a>
+          <a class="contact-option" href="mailto:info@helixcer.com"><span class="contact-symbol mail-symbol">✉</span><span><small>EMAIL OUR TEAM</small><strong>info@helixcer.com</strong></span><b>↗</b></a>
         </div>
       </div>
     </section>
 
-    <section class="section contact" id="contact" aria-labelledby="contact-title">
-      <div class="contact-panel">
-        <div class="contact-copy">
-          <p class="section-kicker">We're here to help</p>
-          <h2 id="contact-title">Let’s get your team connected.</h2>
-          <p>Want to know more about the Basic plan or need help getting started? Reach out to us.</p>
-        </div>
-        <div class="contact-methods">
-          <a class="contact-method" href="https://wa.me/916282010794" target="_blank" rel="noopener noreferrer">
-            <span class="contact-icon" aria-hidden="true">◉</span>
-            <span><small>Chat with us on WhatsApp</small><strong>+91 62820 10794</strong></span>
-            <span class="contact-arrow" aria-hidden="true">↗</span>
-          </a>
-          <a class="contact-method" href="mailto:info@helixcer.com">
-            <span class="contact-icon" aria-hidden="true">✉</span>
-            <span><small>Email our team</small><strong>info@helixcer.com</strong></span>
-            <span class="contact-arrow" aria-hidden="true">↗</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section closing" aria-labelledby="closing-title">
-      <h2 id="closing-title">Ready when your customers are.</h2>
-      <p>Bring your channels together and give every customer conversation a clear home.</p>
-      <a class="button button-primary" href="https://app.chat.helixcer.com/" target="_blank" rel="noopener noreferrer">Open Helixcer Chat <span aria-hidden="true">↗</span></a>
+    <section class="last-cta">
+      <img src="/assets/helixcer-chat-logo.png" alt="" width="54" height="54">
+      <p>One workspace. More meaningful conversations.</p>
+      <a class="button button-primary" href="https://app.chat.helixcer.com/" target="_blank" rel="noopener noreferrer">Open Helixcer Chat <span>↗</span></a>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-brand">
-      <img src="/assets/helixcer-mark.jpg" width="28" height="28" alt="">
-      <span>Helixcer Chat</span>
-    </div>
-    <p>© <span id="year"></span> Helixcer. Omnichannel customer messaging.</p>
-    <div class="footer-links">
-      <a href="https://app.chat.helixcer.com/" target="_blank" rel="noopener noreferrer">Open app ↗</a>
-      <a href="#features">Features</a>
-      <a href="#contact">Contact</a>
-    </div>
+  <footer class="footer">
+    <a class="footer-brand" href="/"><img src="/assets/helixcer-chat-logo.png" alt="" width="34" height="34"><span>helixcer<span>chat</span></span></a>
+    <p>© <span id="year"></span> Helixcer. All conversations, connected.</p>
+    <div><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a><a href="https://app.chat.helixcer.com/" target="_blank" rel="noopener noreferrer">Open app ↗</a></div>
   </footer>
-
   <script>
     document.getElementById("year").textContent = String(new Date().getFullYear());
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".nav");
+    toggle.addEventListener("click", () => {
+      const open = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!open));
+      nav.classList.toggle("nav-open", !open);
+    });
+    nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+      nav.classList.remove("nav-open");
+      toggle.setAttribute("aria-expanded", "false");
+    }));
   </script>
 </body>
 </html>
