@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Helixcer Chat — Omnichannel inbox for customer conversations</title>
+  <meta name="description" content="Helixcer Chat unifies WhatsApp, Instagram, Messenger, Telegram, and Google Reviews in one shared inbox for your team.">
+  <meta name="theme-color" content="#12161f">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/helixcer-chat-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/helixcer-chat-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@450;550;650;750&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script>
+    (function () {
+      var hash = location.hash || "";
+      if (/^#(inbox|contacts|settings|campaigns|channels|team|developers|profile|invite)\b/i.test(hash)) {
+        location.replace("https://app.chat.helixcer.com/" + hash + location.search);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#features">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand-lockup" href="/" aria-label="Helixcer Chat home">
+      <img src="/assets/helixcer-mark.jpg" width="40" height="40" alt="" class="brand-mark">
+      <span class="brand-word">Helixcer <em>Chat</em></span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#features">Features</a>
+      <a href="#plans">Plans</a>
+      <a class="nav-cta" href="https://app.chat.helixcer.com/">Open app</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-brand">
+      <div class="hero-copy">
+        <p class="hero-brand" id="hero-brand">Helixcer Chat</p>
+        <h1>One inbox for every customer channel.</h1>
+        <p class="hero-lead">Run WhatsApp, Instagram, Messenger, Telegram, and Google Reviews from a shared team workspace — without tab-hopping.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://app.chat.helixcer.com/">Open Helixcer Chat</a>
+          <a class="button button-ghost" href="#plans">View plans</a>
+        </div>
+      </div>
+
+      <div class="hero-stage" aria-hidden="true">
+        <div class="inbox-shell">
+          <aside class="inbox-rail">
+            <div class="rail-brand">
+              <img src="/assets/helixcer-mark.jpg" alt="">
+              <span>Inbox</span>
+            </div>
+            <div class="rail-item is-active"></div>
+            <div class="rail-item"></div>
+            <div class="rail-item"></div>
+            <div class="rail-item"></div>
+          </aside>
+          <div class="inbox-list">
+            <div class="list-head"></div>
+            <article class="thread is-hot">
+              <img class="provider" src="/assets/provider-whatsapp.svg" alt="">
+              <div>
+                <strong>Maya Fernandes</strong>
+                <span>Can you share the delivery window for order #4821?</span>
+              </div>
+            </article>
+            <article class="thread">
+              <img class="provider" src="/assets/provider-instagram.svg" alt="">
+              <div>
+                <strong>atelier.north</strong>
+                <span>Loved the new drop — is size M still available?</span>
+              </div>
+            </article>
+            <article class="thread">
+              <img class="provider" src="/assets/provider-telegram.svg" alt="">
+              <div>
+                <strong>Ops Desk</strong>
+                <span>Customer confirmed pickup for tomorrow 11am.</span>
+              </div>
+            </article>
+            <article class="thread">
+              <img class="provider" src="/assets/provider-facebook.svg" alt="">
+              <div>
+                <strong>Jordan Lee</strong>
+                <span>Thanks — the agent resolved it in minutes.</span>
+              </div>
+            </article>
+          </div>
+          <div class="inbox-chat">
+            <div class="chat-head">
+              <span>Maya Fernandes</span>
+              <img src="/assets/provider-whatsapp.svg" alt="">
+            </div>
+            <div class="chat-stream">
+              <div class="bubble in">Hi, I placed order #4821 yesterday.</div>
+              <div class="bubble in">Can you share the delivery window?</div>
+              <div class="bubble out">Hi Maya — it’s scheduled for 2–5pm today. I’ll send the tracking link next.</div>
+            </div>
+            <div class="chat-compose"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="features" aria-labelledby="features-title">
+      <div class="section-intro">
+        <h2 id="features-title">Built for teams that live in customer chat.</h2>
+        <p>Helixcer Chat keeps every conversation, assignment, and channel health signal in one place.</p>
+      </div>
+      <ul class="feature-list">
+        <li>
+          <h3>Shared omnichannel inbox</h3>
+          <p>WhatsApp Cloud, Instagram Messaging, Facebook Messenger, Telegram, and Google Reviews in a single queue.</p>
+        </li>
+        <li>
+          <h3>Person-first contacts</h3>
+          <p>One contact across messaging IDs — so your team replies on the right connected account every time.</p>
+        </li>
+        <li>
+          <h3>Realtime collaboration</h3>
+          <p>Assignments, statuses, search, and live updates so agents never fight over the same thread.</p>
+        </li>
+        <li>
+          <h3>Campaigns &amp; templates</h3>
+          <p>Send approved WhatsApp templates when the customer-service window closes, with draft-safe confirmation.</p>
+        </li>
+        <li>
+          <h3>Workspace roles</h3>
+          <p>Owners, admins, and agents with invite flows, Google sign-in, and password recovery.</p>
+        </li>
+        <li>
+          <h3>Developer API</h3>
+          <p>Server-to-server template sends land in the same inbox your agents already use.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section plans" id="plans" aria-labelledby="plans-title">
+      <div class="section-intro">
+        <h2 id="plans-title">Plans that scale with your workspace.</h2>
+        <p>Start with a focused team inbox, then add seats and channels as conversations grow.</p>
+      </div>
+      <div class="plan-grid" role="list">
+        <article class="plan" role="listitem">
+          <h3>Starter</h3>
+          <p class="plan-price"><span>₹2,999</span> / month</p>
+          <p class="plan-blurb">For founders and small support desks getting every channel into one place.</p>
+          <ul>
+            <li>1 workspace</li>
+            <li>Up to 3 agents</li>
+            <li>5 channel connections</li>
+            <li>Shared inbox &amp; contacts</li>
+            <li>Email support</li>
+          </ul>
+          <a class="button button-ghost" href="https://app.chat.helixcer.com/">Start on Starter</a>
+        </article>
+        <article class="plan plan-featured" role="listitem">
+          <p class="plan-tag">Most teams</p>
+          <h3>Growth</h3>
+          <p class="plan-price"><span>₹7,999</span> / month</p>
+          <p class="plan-blurb">For growing support and sales teams that need campaigns and tighter control.</p>
+          <ul>
+            <li>Everything in Starter</li>
+            <li>Up to 15 agents</li>
+            <li>Unlimited channel connections</li>
+            <li>Campaigns &amp; templates</li>
+            <li>Browser notifications</li>
+            <li>Priority onboarding</li>
+          </ul>
+          <a class="button button-primary" href="https://app.chat.helixcer.com/">Choose Growth</a>
+        </article>
+        <article class="plan" role="listitem">
+          <h3>Scale</h3>
+          <p class="plan-price"><span>Custom</span></p>
+          <p class="plan-blurb">For agencies and multi-brand operators who need platform administration.</p>
+          <ul>
+            <li>Everything in Growth</li>
+            <li>Multiple client workspaces</li>
+            <li>Platform admin panel</li>
+            <li>API access &amp; higher limits</li>
+            <li>Dedicated success contact</li>
+          </ul>
+          <a class="button button-ghost" href="mailto:hello@helixcer.com?subject=Helixcer%20Chat%20Scale%20plan">Talk to sales</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section closing" aria-labelledby="closing-title">
+      <h2 id="closing-title">Ready when your customers are.</h2>
+      <p>Open the app and bring every conversation into Helixcer Chat.</p>
+      <a class="button button-primary" href="https://app.chat.helixcer.com/">Go to app.chat.helixcer.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="/assets/helixcer-mark.jpg" width="28" height="28" alt="">
+      <span>Helixcer Chat</span>
+    </div>
+    <p>© <span id="year"></span> Helixcer. Omnichannel customer messaging.</p>
+    <div class="footer-links">
+      <a href="https://app.chat.helixcer.com/">App</a>
+      <a href="https://app.chat.helixcer.com/#developers">API</a>
+      <a href="mailto:hello@helixcer.com">Contact</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = String(new Date().getFullYear());
+  </script>
+</body>
+</html>

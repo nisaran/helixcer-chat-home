@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Helixcer Chat</title>
+  <script>
+    (function () {
+      var hash = location.hash || "";
+      if (/^#(inbox|contacts|settings|campaigns|channels|team|developers|profile|invite)\b/i.test(hash)) {
+        location.replace("https://app.chat.helixcer.com/" + hash + location.search);
+        return;
+      }
+      location.replace("/" + location.search + hash);
+    })();
+  </script>
+  <meta http-equiv="refresh" content="0; url=/">
+</head>
+<body>
+  <p><a href="/">Return to Helixcer Chat</a></p>
+</body>
+</html>
